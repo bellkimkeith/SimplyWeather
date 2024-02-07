@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         locationManager.delegate = self
         locationManager.requestWhenInUseAuthorization()
         locationManager.requestLocation()
+        dateLabel.sizeToFit()
     }
 }
 
